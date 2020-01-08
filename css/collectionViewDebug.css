@@ -1,0 +1,154 @@
+/** DEBUG: Icon
+/** **************************** **/
+
+.collectionView .item .content .icon.layer1 {
+	background-image: url("../images/debug/icon/back.png");
+}
+
+.collectionView .item .content .icon.layer2 {
+	background-image: url("../images/debug/icon/front.png");
+}
+
+/** DEBUG: Gear
+/** **************************** **/
+
+.collectionView .item .content .gear.layer1 {
+	background-image: url("../images/debug/gear/gear1.png");
+}
+
+.collectionView .item .content .gear.layer2 {
+	background-image: url("../images/debug/gear/gear2.png");
+}
+
+.collectionView .item .content .gear.layer3 {
+	background-image: url("../images/debug/gear/gear3.png");
+}
+
+.collectionView .item .content .gear.layer4 {
+	background-image: url("../images/debug/gear/gear4.png");
+}
+
+.collectionView .item .content .gear.layer5 {
+	background-image: url("../images/debug/gear/gear5.png");
+}
+
+/** DEBUG: Demobots
+/** **************************** **/
+
+.collectionView .item .content .demobots.layer1 {
+	background-image: url("../images/debug/demobots/back.png");
+}
+
+.collectionView .item .content .demobots.layer2 {
+	background-image: url("../images/debug/demobots/headShadow.png");
+}
+
+.collectionView .item .content .demobots.layer3 {
+	background-image: url("../images/debug/demobots/headInner.png");
+}
+
+.collectionView .item .content .demobots.layer4 {
+	background-image: url("../images/debug/demobots/headOuter.png");
+}
+
+/** DEBUG: Scenery1
+/** **************************** **/
+
+.collectionView .item .content .scenery1.layer1 {
+	background-image: url("../images/debug/scenery1/back.png");
+}
+
+.collectionView .item .content .scenery1.layer2 {
+	background-image: url("../images/debug/scenery1/middle.png");
+}
+
+.collectionView .item .content .scenery1.layer3 {
+	background-image: url("../images/debug/scenery1/front.png");
+}
+
+/** DEBUG: Scenery2
+/** **************************** **/
+
+.collectionView .item .content .scenery2.layer1 {
+	background-image: url("../images/debug/scenery2/back.png");
+}
+
+.collectionView .item .content .scenery2.layer2 {
+	background-image: url("../images/debug/scenery2/middle1.png");
+}
+
+.collectionView .item .content .scenery2.layer3 {
+	background-image: url("../images/debug/scenery2/middle2.png");
+}
+
+.collectionView .item .content .scenery2.layer4 {
+	background-image: url("../images/debug/scenery2/front.png");
+}
+
+/** DEBUG: Scenery3
+/** **************************** **/
+
+.collectionView .item .content .scenery3.layer1 {
+	background-image: url("../images/debug/scenery3/back.png");
+}
+
+.collectionView .item .content .scenery3.layer2 {
+	background-image: url("../images/debug/scenery3/middle.png");
+}
+
+.collectionView .item .content .scenery3.layer3 {
+	background-image: url("../images/debug/scenery3/front.png");
+}
+
+/** DEBUG: Scenery4
+/** **************************** **/
+
+.collectionView .item .content .scenery4.layer1 {
+	background-image: url("../images/debug/scenery4/back.png");
+}
+
+.collectionView .item .content .scenery4.layer2 {
+	background-image: url("../images/debug/scenery4/middle1.png");
+}
+
+.collectionView .item .content .scenery4.layer3 {
+	background-image: url("../images/debug/scenery4/middle2.png");
+}
+
+.collectionView .item .content .scenery4.layer4 {
+	background-image: url("../images/debug/scenery4/front.png");
+}
+
+/** DEBUG: Scenery5
+/** **************************** **/
+
+.collectionView .item .content .scenery5.layer1 {
+	background-image: url("../images/debug/scenery5/back.png");
+}
+
+.collectionView .item .content .scenery5.layer2 {
+	background-image: url("../images/debug/scenery5/middle1.png");
+}
+
+.collectionView .item .content .scenery5.layer3 {
+	background-image: url("../images/debug/scenery5/middle2.png");
+}
+
+.collectionView .item .content .scenery5.layer4 {
+	background-image: url("../images/debug/scenery5/front.png");
+}
+
+/** DEBUG: Scenery6
+/** **************************** **/
+
+.collectionView .item .content .scenery6.layer1 {
+	background-image: url("../images/debug/scenery6/back.png");
+}
+
+.collectionView .item .content .scenery6.layer2 {
+	background-image: url("../images/debug/scenery6/middle.png");
+}
+
+.collectionView .item .content .scenery6.layer3 {
+	background-image: url("../images/debug/scenery6/front.png");
+}

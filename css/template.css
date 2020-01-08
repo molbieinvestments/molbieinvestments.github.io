@@ -1,0 +1,256 @@
+html {
+	position: relative;
+	min-height: 100%;
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	padding-top: 70px;
+	background-color: #E6E6E6;
+	color: #000000;
+	text-align: center;
+	font-family: 'Molbie';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 200%;
+	margin-bottom: 25px;
+}
+
+/** NAVBAR
+/** **************************** **/
+nav {
+	-webkit-box-shadow: 0px 2px 2px rgba(102,102,102,0.98);
+	   -moz-box-shadow: 0px 2px 2px rgba(102,102,102,0.98);
+	    -ms-box-shadow: 0px 2px 2px rgba(102,102,102,0.98);
+	     -o-box-shadow: 0px 2px 2px rgba(102,102,102,0.98);
+    		box-shadow: 0px 2px 2px rgba(102,102,102,0.98);
+}
+
+/** NAVBAR: Menu Icons
+/** **************************** **/
+.icon-home::before {
+	content: "\e643";
+}
+.icon-projects::before {
+	content: "\e63f";
+}
+.icon-opensource::before {
+	content: "\e649";
+}
+.icon-contact::before {
+	content: "\e654";
+}
+
+/** NAVBAR: Animation
+/** **************************** **/
+.navbar {
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+.navbar.animation-active {
+	top: -51px !important;
+    opacity: 0 !important;
+}
+
+/** NAVBAR: Logo
+/** **************************** **/
+.navbar-brand {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.navbar-brand img {
+	height: 35px;
+}
+
+/** NAVBAR: Alignment
+/** **************************** **/
+.navbar-right li {
+	text-align: right;
+}
+
+/** NAVBAR: Colors
+/** **************************** **/
+/* http://work.smarchal.com/twbscolor/css/0000000000009e9fa137c0f01 */
+.navbar-default {
+	background-color: rgba(51,51,51,0.98);
+	border-color: rgba(51,51,51,0.98);
+}
+.navbar-default .navbar-brand {
+	color: #9E9FA1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #37C0F0;
+}
+.navbar-default .navbar-text {
+	color: #9E9FA1;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #9E9FA1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #37C0F0;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+	background-color: rgba(51,51,51,0.98);
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+	color: #9E9FA1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+	color: #37C0F0;
+	background-color: rgba(51,51,51,0.98);
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+	background-color: rgba(51,51,51,0.98);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+	color: #37C0F0;
+	background-color: rgba(51,51,51,0.98);
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #37C0F0;
+	background-color: rgba(51,51,51,0.98);
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	color: #37C0F0;
+	background-color: rgba(51,51,51,0.98);
+}
+.navbar-default .navbar-toggle {
+	border-color: rgba(51,51,51,0.98);
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: rgba(51,51,51,0.98);
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #9E9FA1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #9E9FA1;
+}
+.navbar-default .navbar-link {
+	color: #9E9FA1;
+}
+.navbar-default .navbar-link:hover {
+	color: #37C0F0;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    	color: #9E9FA1;
+  	}
+  	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    	color: #37C0F0;
+  	}
+  	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    	color: #37C0F0;
+    	background-color: rgba(51,51,51,0.98);
+  	}
+}
+
+/** CONTENT
+/** **************************** **/
+.col-sm-4 {
+	padding: 0px;
+}
+
+/** FONTS
+/** **************************** **/
+.collectionView .item h1 {
+	font-size: 24px;
+}
+.collectionView .item h2 {
+	font-size: 20px;
+}
+.collectionView .item h3 {
+	font-size: 16px;
+}
+.collectionView .item h4 {
+	font-size: 12px;
+}
+.collectionView .item h5 {
+	font-size: 10px;
+}
+.collectionView .item h6 {
+	font-size: 8px;
+}
+.collectionView .item p {
+	font-size: 16px;
+}
+
+@media (min-width: 768px) {
+	.collectionView .item h1 {
+		font-size: 30px;
+	}
+	.collectionView .item h2 {
+		font-size: 25px;
+	}
+	.collectionView .item h3 {
+		font-size: 20px;
+	}
+	.collectionView .item h4 {
+		font-size: 15px;
+	}
+	.collectionView .item h5 {
+		font-size: 12px;
+	}
+	.collectionView .item h6 {
+		font-size: 10px;
+	}
+	.collectionView .item p {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.collectionView .item h1 {
+		font-size: 36px;
+	}
+	.collectionView .item h2 {
+		font-size: 30px;
+	}
+	.collectionView .item h3 {
+		font-size: 24px;
+	}
+	.collectionView .item h4 {
+		font-size: 18px;
+	}
+	.collectionView .item h5 {
+		font-size: 14px;
+	}
+	.collectionView .item h6 {
+		font-size: 12px;
+	}
+	.collectionView .item p {
+		font-size: 20px;
+	}
+}
+
+/** FOOTER
+/** **************************** **/
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  background-color: rgba(51,51,51,0.98);
+  text-align: right;
+  font-size: 75%;
+}

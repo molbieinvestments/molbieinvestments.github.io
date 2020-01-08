@@ -1,0 +1,109 @@
+/** CollectionView
+/** **************************** **/
+.collectionView {
+	background-color: transparent;
+}
+
+/** Item
+/** **************************** **/
+.collectionView .item {
+	background-color: transparent;
+}
+
+/** Item Background
+/** **************************** **/
+.collectionView .item .content {
+	background-color: transparent;
+}
+
+/** Item Layers
+/** **************************** **/
+.collectionView .item .content .layers {
+	background-color: transparent;
+	box-shadow: 0px 0px 0px 1px rgba(255,255,255,1);
+}
+
+.collectionView .item:hover .content .layers {
+	box-shadow: 0px 0px 0px 4px rgba(255,255,255,1);
+}
+
+.collectionView .item.selected .content .layers {
+	box-shadow: 0px 0px 0px 4px rgba(255,255,255,1);
+}
+
+.collectionView .item .content .layers div {
+	background-color: transparent;
+}
+
+/** Item Layer Border
+/** **************************** **/
+.collectionView .item .content .layers .innerBorder {
+	background-color: transparent;
+	border: 4px solid rgba(51,51,51,1);
+}
+
+.collectionView .item:hover .content .layers .innerBorder {
+	
+}
+
+.collectionView .item.selected .content .layers .innerBorder {
+	
+}
+
+/** Item Shadow
+/** **************************** **/
+.collectionView .item .content .shadow {
+	background-color: transparent;
+}
+
+.collectionView .item:hover .content .shadow {
+	box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4), inset 0 -45px 100px rgba(0, 0, 0, 0);
+}
+
+.collectionView .item.selected .content .shadow {
+	box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4), inset 0 -45px 100px rgba(0, 0, 0, 0);
+}
+
+/** Item Glow
+/** **************************** **/
+.collectionView .item .content .layers .glow {
+    background: radial-gradient(rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 80%);
+}
+
+.collectionView .item:hover .content .layers .glow {
+	
+}
+
+.collectionView .item.selected .content .layers .glow {
+	
+}
+
+/** Item Title
+/** **************************** **/
+.collectionView .item h1 {
+	color: rgba(158, 159, 161, 1);
+}
+
+.collectionView .item:hover h1 {
+	color: rgba(48, 94, 171, 1);
+	text-shadow: 1px 1px 1px rgba(55, 192, 240, 1);
+}
+
+.collectionView .item.selected h1 {
+	color: rgba(48, 94, 171, 1);
+	text-shadow: 1px 1px 1px rgba(55, 192, 240, 1);
+}
+
+/** Item Description
+/** **************************** **/
+.collectionView .item p {
+	color: rgba(51, 51, 51, 0);
+}
+
+.collectionView .item:hover p {
+	color: rgba(51, 51, 51, 1);
+}
+
+.collectionView .item.selected p {
+	color: rgba(51, 51, 51, 1);
+}

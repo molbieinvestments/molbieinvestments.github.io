@@ -1,0 +1,331 @@
+/* 
+	** SMALL ICON 5:3 **
+	Actual Size: 400px x 240px
+	Focused Content Size: 370px x 222px   (92.5% x 92.5% of actual)
+	Unfocused Content Size: 300px x 180px (75% x 75% of actual)
+	
+	** LARGE ICON 5:3 **
+	Actual Size: 1280px x 768px
+	Focused Content Size: 1184px x 710px  (92.5% x 92.4479166666667% of actual)
+	Unfocused Content Size: 960px x 576px (75% x 75% of actual)
+	
+	** POSTER 2:3 **
+	Actual Size: 404px x 608px
+	Focused Content Size: 380px x 570px   (94.0594059405941% x 93.75% of actual)
+	Unfocused Content Size: 333px x 500px (82.4257425742574% x 82.2368421052632% of actual)
+	
+	** SQUARE 1:1 **
+	Actual Size: 608px x 608px
+	Focused Content Size: 570px x 570px   (93.75% x 93.75% of actual)
+	Unfocused Content Size: 500px x 500px (82.2368421052632% x 82.2368421052632% of actual)
+	
+	** WIDESCREEN 16:9 **
+	Actual Size: 908px x 512px
+	Focused Content Size: 852px x 479px   (93.8325991189427% x 93.5546875% of actual)
+	Unfocused Content Size: 782px x 440px (86.1233480176211% x 85.9375% of actual)
+	
+	** BANNER 14:5 **
+	Actual Size: 1940px x 692px
+	Focused Content Size: 1740px x 620px   (89.6907216494845% x 89.5953757225434% of actual)
+	Unfocused Content Size: 1570px x 560px (80.9278350515464% x 80.9248554913295% of actual)
+	
+	** ACHIEVEMENT ICON (CIRCLE CONTENT; NO FOCUS) 1:1 **
+	Actual Size: 320px x 320px
+	Unfocused Content Size: 200px x 200px (62.5% x 62.5% of actual)
+	
+	** DASHBOARD 43:7 (NO FOCUS) **
+	Actual Size: 923px x 150px
+	
+	** LEADERBOARD 16:9 **
+	Actual Size: 659px x 371px
+	Focused Content Size: 618px x 348px   (93.7784522003035% x 93.800539083558% of actual)
+	Unfocused Content Size: 548px x 309px (83.1562974203338% x 83.288409703504% of actual)
+*/
+
+/** Item: Icon (5:3)
+/** **************************** **/
+.collectionView .item.icon {
+	width: 300px;
+	height: 200px;
+}
+
+.collectionView .item.icon .content {
+	width: 300px;
+	height: 180px;
+}
+
+.collectionView .item.icon .content .layers {
+	width: 300px;
+	height: 180px;
+}
+
+.collectionView .item.icon .shadow {
+	width: 300px;
+	height: 180px;
+}
+
+@media (min-width: 768px) {
+	.collectionView .item.icon {
+		width: 340px;
+		height: 224px;
+	}
+
+	.collectionView .item.icon .content {
+		width: 340px;
+		height: 204px;
+	}
+
+	.collectionView .item.icon .content .layers {
+		width: 340px;
+		height: 204px;
+	}
+
+	.collectionView .item.icon .shadow {
+		width: 340px;
+		height: 204px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.collectionView .item.icon {
+		width: 380px;
+		height: 248px;
+	}
+
+	.collectionView .item.icon .content {
+		width: 380px;
+		height: 228px;
+	}
+
+	.collectionView .item.icon .content .layers {
+		width: 380px;
+		height: 228px;
+	}
+
+	.collectionView .item.icon .shadow {
+		width: 380px;
+		height: 228px;
+	}
+}
+
+/** Item: Large Icon (5:3)
+/** **************************** **/
+.collectionView .item.icon.large {
+	width: 640px;
+	height: 404px;
+}
+
+.collectionView .item.icon.large .content {
+	width: 640px;
+	height: 384px;
+}
+
+.collectionView .item.icon.large .content .layers {
+	width: 640px;
+	height: 384px;
+}
+
+.collectionView .item.icon.large .shadow {
+	width: 640px;
+	height: 384px;
+}
+
+/** Item: Poster (2:3)
+/** **************************** **/
+.collectionView .item.poster {
+	width: 205px;
+	height: 328px;
+}
+
+.collectionView .item.poster .content {
+	width: 205px;
+	height: 308px;
+}
+
+.collectionView .item.poster .content .layers {
+	width: 205px;
+	height: 308px;
+}
+
+.collectionView .item.poster .shadow {
+	width: 205px;
+	height: 308px;
+}
+
+/** Item: Square (1:1)
+/** **************************** **/
+.collectionView .item.square {
+	width: 200px;
+	height: 220px;
+}
+
+.collectionView .item.square .content {
+	width: 200px;
+	height: 200px;
+}
+
+.collectionView .item.square .content .layers {
+	width: 200px;
+	height: 200px;
+}
+
+.collectionView .item.square .shadow {
+	width: 200px;
+	height: 200px;
+}
+
+@media (min-width: 768px) {
+	.collectionView .item.square {
+		width: 240px;
+		height: 260px;
+	}
+
+	.collectionView .item.square .content {
+		width: 240px;
+		height: 240px;
+	}
+
+	.collectionView .item.square .content .layers {
+		width: 240px;
+		height: 240px;
+	}
+
+	.collectionView .item.square .shadow {
+		width: 240px;
+		height: 240px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.collectionView .item.square {
+		width: 280px;
+		height: 300px;
+	}
+
+	.collectionView .item.square .content {
+		width: 280px;
+		height: 280px;
+	}
+
+	.collectionView .item.square .content .layers {
+		width: 280px;
+		height: 280px;
+	}
+
+	.collectionView .item.square .shadow {
+		width: 280px;
+		height: 280px;
+	}
+}
+
+/** Item: Widescreen (16:9)
+/** **************************** **/
+.collectionView .item.widescreen {
+	width: 460.5px;
+	height: 279.5px;
+}
+
+.collectionView .item.widescreen .content {
+	width: 460.5px;
+	height: 259.5px;
+}
+
+.collectionView .item.widescreen .content .layers {
+	width: 460.5px;
+	height: 259.5px;
+}
+
+.collectionView .item.widescreen .shadow {
+	width: 460.5px;
+	height: 259.5px;
+}
+
+/** Item: Banner (14:5)
+/** **************************** **/
+.collectionView .item.banner {
+	width: 940.5px;
+	height: 355px;
+}
+
+.collectionView .item.banner .content {
+	width: 940.5px;
+	height: 335px;
+}
+
+.collectionView .item.banner .content .layers {
+	width: 940.5px;
+	height: 335px;
+}
+
+.collectionView .item.banner .shadow {
+	width: 940.5px;
+	height: 335px;
+}
+
+/** Item: Achievement (1:1)
+/** **************************** **/
+.collectionView .item.achievement {
+	width: 173px;
+	height: 193px;
+}
+
+.collectionView .item.achievement .content {
+	width: 173px;
+	height: 173px;
+	border-radius: 50%;
+}
+
+.collectionView .item.achievement .content .layers {
+	width: 173px;
+	height: 173px;
+	border-radius: 50%;
+}
+
+.collectionView .item.achievement .shadow {
+	width: 173px;
+	height: 173px;
+}
+
+/** Item: Dashboard (80:13)
+/** **************************** **/
+.collectionView .item.dashboard {
+	width: 500px;
+	height: 101px;
+}
+
+.collectionView .item.dashboard .content {
+	width: 500px;
+	height: 81px;
+}
+
+.collectionView .item.dashboard .content .layers {
+	width: 500px;
+	height: 81px;
+}
+
+.collectionView .item.dashboard .shadow {
+	width: 500px;
+	height: 81px;
+}
+
+/** Item: Leaderboard (16:9)
+/** **************************** **/
+.collectionView .item.leaderboard {
+	width: 333px;
+	height: 208px;
+}
+
+.collectionView .item.leaderboard .content {
+	width: 333px;
+	height: 188px;
+}
+
+.collectionView .item.leaderboard .content .layers {
+	width: 333px;
+	height: 188px;
+}
+
+.collectionView .item.leaderboard .shadow {
+	width: 333px;
+	height: 188px;
+}
